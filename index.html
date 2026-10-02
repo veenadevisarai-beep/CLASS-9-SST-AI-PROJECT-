@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SST AI | Personal AI Assistant</title>
+
+    <link rel="stylesheet" href="/style.css?v=10000">
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar" id="sidebar">
+
+        <div class="brand">
+            <div class="brand-icon">AI</div>
+
+            <div>
+                <h2>SST AI</h2>
+                <p>Your Personal Class 9 SST AI Assistant</p>
+            </div>
+        </div>
+
+        <button class="new-chat" id="newChat">
+            <span>＋</span>
+            New Chat
+        </button>
+
+        <div class="section-title">
+            SUBJECTS
+        </div>
+
+        <button class="subject-btn" data-subject="History">
+            <span>📜</span>
+            History
+        </button>
+
+        <button class="subject-btn" data-subject="Geography">
+            <span>🌍</span>
+            Geography
+        </button>
+
+        <button class="subject-btn" data-subject="Political Science">
+            <span>🏛️</span>
+            Political Science
+        </button>
+
+        <button class="subject-btn" data-subject="Economics">
+            <span>💰</span>
+            Economics
+        </button>
+
+        <div class="sidebar-bottom">
+            <strong>Created by Sahil</strong>
+            <span>Class 9 • 2026-27</span>
+            <span>Daffodils Public School</span>
+        </div>
+
+    </aside>
+
+
+    <main class="main">
+
+        <header class="topbar">
+
+            <button
+                class="menu-btn"
+                id="menuBtn"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+            <div class="top-title">
+                <h1>PERSONAL CLASS 9 SST AI ASSISTANT</h1>
+                <p>Class 9 Social Science</p>
+            </div>
+
+            <div class="online">
+                <span></span>
+                Online
+            </div>
+
+        </header>
+
+
+        <section class="chat" id="chat">
+
+            <div class="welcome" id="welcome">
+
+                <div class="ai-mark">
+                    <span>AI</span>
+                </div>
+
+                <h2>WHAT YOUR WANT TO ASK?</h2>
+
+                <p>
+                    Ask questions about History, Geography,
+                    Political Science or Economics.
+                </p>
+
+                <div class="cards">
+
+                    <button class="card" data-subject="History">
+                        <div class="card-icon">📜</div>
+                        <div>
+                            <strong>History</strong>
+                            <small>Learn about the past</small>
+                        </div>
+                    </button>
+
+                    <button class="card" data-subject="Geography">
+                        <div class="card-icon">🌍</div>
+                        <div>
+                            <strong>Geography</strong>
+                            <small>Earth, climate and places</small>
+                        </div>
+                    </button>
+
+                    <button class="card" data-subject="Political Science">
+                        <div class="card-icon">🏛️</div>
+                        <div>
+                            <strong>Political Science</strong>
+                            <small>Democracy and elections</small>
+                        </div>
+                    </button>
+
+                    <button class="card" data-subject="Economics">
+                        <div class="card-icon">💰</div>
+                        <div>
+                            <strong>Economics</strong>
+                            <small>Markets and choices</small>
+                        </div>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <footer class="composer-area">
+
+            <form class="composer" id="chatForm">
+
+                <input
+                    id="question"
+                    type="text"
+                    autocomplete="off"
+                    placeholder="Ask your question..."
+                >
+
+                <button
+                    id="sendButton"
+                    type="submit"
+                    aria-label="Send"
+                >
+                    ➤
+                </button>
+
+            </form>
+
+            <p class="notice">
+                SST AI can make mistakes. Check important answers with your textbook.
+            </p>
+
+        </footer>
+
+    </main>
+
+</div>
+
+
+<script src="/script.js?v=10000"></script>
+
+</body>
+</html>
+
